@@ -20,7 +20,7 @@ function NewKegForm(){
           type='text'
           id='alcoholContent'
           placeholder='ABV'/>
-        <button type='submit'>Save!</button>
+        <button type='submit'>Add!</button>
       </form>
     </div>
   );
