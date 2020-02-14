@@ -14,11 +14,11 @@ function KegList(){
   return (
     <div>
       <hr/>
-      {marketScheduleList.map((marketSchedule, index) =>
-        <Keg name={marketSchedule.name}
-        brand={marketSchedule.brand}
-        price={marketSchedule.price}
-        alcoholContent={marketSchedule.alcoholContent}
+      {kegList.map((keg, index) =>
+        <Keg name={keg.name}
+        brand={keg.brand}
+        price={keg.price}
+        alcoholContent={keg.alcoholContent}
         key={index}/>
       )}
     </div>
