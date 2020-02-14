@@ -9,9 +9,9 @@ function Keg(props){
         background-color: lavender;
       }
       `}</style>
-      <h3>{props.day} - {props.location}</h3>
-      <p><em>{props.hours}</em></p>
-      <p><em>{props.booth}</em></p>
+      <h3>{props.name} - made by - {props.brand}</h3>
+      <p><em>{props.price}</em></p>
+      <p><em>{props.alcoholContent}</em></p>
       <hr/>
     </div>
   );

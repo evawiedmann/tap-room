@@ -6,20 +6,20 @@ function NewKegForm(){
       <form>
         <input
           type='text'
-          id='day'
-          placeholder='Day of the Week'/>
+          id='name'
+          placeholder='Beer Name'/>
         <input
           type='text'
-          id='location'
-          placeholder='Location'/>
+          id='brand'
+          placeholder='Brewery Name'/>
         <input
           type='text'
-          id='hours'
-          placeholder='Hours'/>
+          id='price'
+          placeholder='Price Per Keg'/>
         <input
           type='text'
-          id='booth'
-          placeholder='Booth'/>
+          id='alcoholContent'
+          placeholder='ABV'/>
         <button type='submit'>Save!</button>
       </form>
     </div>

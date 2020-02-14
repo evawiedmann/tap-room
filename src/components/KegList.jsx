@@ -3,10 +3,10 @@ import Keg from "./Keg";
 
 const kegList = [
  {
-    day: "Saturday",
-    location: "Beaverton",
-    hours: "10:00am - 1:30pm",
-    booth: "9G"
+    name: "Eye of Newt",
+    brand: "Witch's Brewery",
+    price: "100",
+    alcoholContent: "7"
  }
 ];
 
